@@ -127,3 +127,43 @@ body{
 .updates{
     text-align:center;
 }
+form{
+    text-align:center;
+    margin-bottom:20px;
+    width:60%;
+    padding:3%;
+    background-color: aquamarine;
+    margin-left:20%;
+}
+.email{
+    width:40%;
+    padding:9px 15px;
+    background-color:rgb(84, 82, 82);
+    color:whitesmoke;
+    font-size:17px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+.submit{
+    color:white;
+    background-color:orangered;
+    padding:12px 39px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+footer{
+    height:160px;
+    background-color:black;
+    margin-top:100px;
+}
+footer h2{
+    color:rgb(59, 42, 11);
+    text-align:center;
+    padding-top:45px;
+}
+footer p{
+    color:white;
+    text-align:center;
+    font-size:10px;
+    
+}
