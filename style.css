@@ -30,14 +30,56 @@ body{
 }
 .donate{
     text-align:center;
-    padding:69px;
-    
-}
-.donate h1{
-    font-weight: 700;
+    margin-top:90px;
+    padding:14px;
 }
 .money{
     display:flex;
-    justify-content: space-evenly;
-    padding-top:5px; 
+    justify-content:space-evenly;
+    margin-left:20%;
+    margin-right:20%;
+    padding:10px;
+}
+.amount{
+    width:80px;
+    height:50px;
+    background-color: gray;
+    border:2px solid gray;
+    border-radius:5px;
+    padding:15px;
+}
+#another{
+    width:80px;
+    height:50px;
+    background-color:bisque;
+    border:2px solid red;
+    padding:15px;
+    color:red;
+}
+.input-field{
+    text-align:center;
+}
+.input-field input{
+    width:53%;
+    text-align:center;
+    padding:10px;
+    outline:1px 0px 0px;
+    margin-bottom:20px;
+}
+.input-field button{
+    padding:10px 36px;
+    border:1px solid orange;
+    border-radius:8px;
+    background-color:orangered;
+    color:white;
+    font-weight:bold;
+   font-size:16px;
+}
+.donate-plan{
+    text-align:center;
+    margin-top:80px;
+    padding:10px;
+}
+.donate-plan h1{
+    font-size:40px;
 }
