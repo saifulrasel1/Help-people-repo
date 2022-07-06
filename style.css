@@ -23,7 +23,7 @@ body{
 }
 .banner button{
    border:2px solid orange;
-   padding:12px 17px;
+   padding:12px 30px;
    background-image:linear-gradient(orange,tomato);
    border-radius:10px;
    color:white;
@@ -67,7 +67,7 @@ body{
     margin-bottom:20px;
 }
 .input-field button{
-    padding:10px 36px;
+    padding:12px 40px;
     border:1px solid orange;
     border-radius:8px;
     background-color:orangered;
@@ -82,4 +82,48 @@ body{
 }
 .donate-plan h1{
     font-size:40px;
+}
+.types{
+    display:flex;
+}
+.food-shelter-education{
+    width:30%;
+    margin:5%;
+    padding:16px;
+    border-radius:10px;
+}
+.food-shelter-education img{
+  width:40px;
+}
+#shelter{
+    background-color: rgb(97, 106, 113);
+}
+#education{
+    background-color: aquamarine;
+}
+#food{
+    background-color: antiquewhite;
+}
+.donation-part{
+    display:flex;
+    margin-top:100px;
+}
+.donation-part1{
+    width:50%;
+    margin-left:10%;
+    padding:14px;
+}
+.donation-part img{
+    width:85%;
+}
+.donation-part1 button{
+    padding:14px 20px;
+    background-color:orangered;
+    font-size:17px;
+    color:white;
+    border:2px solid gray;
+    border-radius:7px;
+}
+.updates{
+    text-align:center;
 }
