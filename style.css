@@ -65,6 +65,8 @@ body{
     padding:10px;
     outline:1px 0px 0px;
     margin-bottom:20px;
+    border:none;
+    border-bottom:1px solid gray;
 }
 .input-field button{
     padding:12px 40px;
